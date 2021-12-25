@@ -1,0 +1,19 @@
+
+plugin.tx_monitoringtester {
+	view {
+		# cat=plugin.tx_monitoringtester/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:monitoring_tester/Resources/Private/Templates/
+		# cat=plugin.tx_monitoringtester/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:monitoring_tester/Resources/Private/Partials/
+		# cat=plugin.tx_monitoringtester/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:monitoring_tester/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_monitoringtester//a; type=string; label=Default storage PID
+		storagePid =
+
+	}
+	settings {
+		
+	}
+}

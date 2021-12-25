@@ -1,0 +1,21 @@
+
+plugin.tx_monitoringtester {
+	view {
+		templateRootPath = {$plugin.tx_monitoringtester.view.templateRootPath}
+		partialRootPath = {$plugin.tx_monitoringtester.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_monitoringtester.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_monitoringtester.persistence.storagePid}
+
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+	settings {
+		
+	}
+}
+
+
