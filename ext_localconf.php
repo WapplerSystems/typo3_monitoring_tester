@@ -1,17 +1,15 @@
 <?php
 if (!defined('TYPO3_MODE')) {
-	die('Access denied.');
+    die('Access denied.');
 }
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-	'WapplerSystems.' . $_EXTKEY,
-	'Exception',
-	[
-		'Exception' => 'main,throw',
-
+    'WapplerSystems.monitoring_tester',
+    'Exception',
+    [
+        'Exception' => 'main,throw',
     ],
-	[
-		'Exception' => 'throw',
-
+    [
+        'Exception' => 'throw',
     ]
 );
