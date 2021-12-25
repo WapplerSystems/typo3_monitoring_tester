@@ -7,9 +7,9 @@ if (!defined('TYPO3_MODE')) {
     'WapplerSystems.monitoring_tester',
     'Exception',
     [
-        'Exception' => 'main,throw',
+        'MyException' => 'main,throw',
     ],
     [
-        'Exception' => 'throw',
+        'MyException' => 'throw',
     ]
 );

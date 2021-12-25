@@ -7,7 +7,7 @@ use TYPO3\CMS\Extbase\Exception;
 
 /**
  */
-class ExceptionController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
+class MyExceptionController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
 
     /**
@@ -23,6 +23,7 @@ class ExceptionController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionContro
     /**
      *
      * @return void
+     * @throws Exception
      */
     public function throwAction()
     {
